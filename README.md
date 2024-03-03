@@ -67,6 +67,6 @@ The Average Early Stopping is around 30 - 40 Epochs
 The highest accuracy we can reach is 96.7%
 `Data chosen`<br>
 <img src="/Snapshot/Accuracy.png" alt="acc">
-<br>
+<br><br><br>
 `Data with black space`<br>
 <img src="/Snapshot/Loss.png" alt="loss">
