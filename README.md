@@ -41,19 +41,12 @@ This script is running on my colab notebook
 <br> Layer (type)                Output Shape              Param #   
 <br> =================================================================
 <br>  resnet50 (Functional)       (None, 4, 4, 2048)        23587712  
-<br>                                                                 
-<br> flatten (Flatten)           (None, 32768)             0         
-<br>                                                                 
-<br> dense (Dense)               (None, 256)               8388864   
-<br>                                                                 
-<br> dropout (Dropout)           (None, 256)               0         
-<br>                                                                 
-<br> dense_1 (Dense)             (None, 128)               32896     
-<br>                                                                 
-<br> dropout_1 (Dropout)         (None, 128)               0         
-<br>                                                                 
-<br> dense_2 (Dense)             (None, 57)                7353      
-<br>                                                                 
+<br> flatten (Flatten)           (None, 32768)             0                                                                      
+<br> dense (Dense)               (None, 256)               8388864                                                                
+<br> dropout (Dropout)           (None, 256)               0                                                                       
+<br> dense_1 (Dense)             (None, 128)               32896                                                                 
+<br> dropout_1 (Dropout)         (None, 128)               0                                                                      
+<br> dense_2 (Dense)             (None, 57)                7353                                                                    
 <br> =================================================================
 <br> Total params: 32016825 (122.13 MB)
 <br> Trainable params: 8429113 (32.15 MB)
@@ -64,7 +57,7 @@ This script is running on my colab notebook
 The Average Early Stopping is around 30 - 40 Epochs
 
 ## Snapshot
-The highest accuracy we can reach is 96.7%
+**The highest accuracy we can reach is 96.7%**
 `Data chosen`<br>
 <img src="/Snapshot/Accuracy.png" alt="acc">
 <br><br><br>
