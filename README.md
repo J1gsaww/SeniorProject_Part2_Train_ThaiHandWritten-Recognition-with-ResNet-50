@@ -20,7 +20,7 @@ Mr. Naphat			Sookjitsumrarn		6388059
 <br> `Resposible on Evaluating`
 
 ## System Structure Chart
-<img src="System Structure Chart.png" alt="SystemArc"> <br>
+<img src="/Snapshot/System Structure Chart.png" alt="SystemArc"> <br>
 
 **Our project consist of 4 parts including:** <br>
 
