@@ -35,7 +35,8 @@ This script is running on my colab notebook
 <br>Ensure you have the necessary dependencies installed (NumPy, Matplotlib, Keras).
 <br> This is a usage of transfer learning of Convolutional Neural Network with ResNet-50
 <br> The essential poit is adjusting the Feature Extraction part that match the data and set trainable to false (However, the provide script is the experimental of both traiable true and false)
-<br> Model Summary (Trainable False)
+<div align="center">
+<br> **Model Summary (Trainable False)**
 <br> Model: "sequential"
 <br> _________________________________________________________________
 <br> Layer (type)                Output Shape              Param #   
@@ -52,6 +53,7 @@ This script is running on my colab notebook
 <br> Trainable params: 8429113 (32.15 MB)
 <br> Non-trainable params: 23587712 (89.98 MB)
 <br> _________________________________________________________________
+</div>
 <br>
 <br>
 The Average Early Stopping is around 30 - 40 Epochs
